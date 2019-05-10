@@ -48,14 +48,14 @@ public class RemoteControlTest {
             }
         }
         /* Remote Control */
-        // Assign commands
         System.out.println("\n\n==============================");
         System.out.println("RemoteControl\n");
 
-        // Assign commands to remote control and execute
+        // Assign commands
         RemoteControl remote = new RemoteControl();
         for (int i=0; i<listOfCommands.length; ++i) remote.addcommand(listOfCommands[i]);
 
+        // Execute commands
         counter = 0;
         for (int i=0; i<titles.length; ++i){
             System.out.println("\n" + titles[i]);
