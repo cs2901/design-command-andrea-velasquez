@@ -1,4 +1,4 @@
-package command;
+package receiver;
 
 public class Door {
     private boolean isOpen = false;

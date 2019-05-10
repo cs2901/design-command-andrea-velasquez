@@ -1,4 +1,4 @@
-package command;
+package receiver;
 
 public class Fan {
     private boolean isHigh = false;

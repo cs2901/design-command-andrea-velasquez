@@ -1,5 +1,7 @@
 package command;
 
+import receiver.Door;
+
 public class GarageDoorCloseCommand implements Command {
     Door door;
 

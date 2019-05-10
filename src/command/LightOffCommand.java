@@ -1,5 +1,7 @@
 package command;
 
+import receiver.Light;
+
 public class LightOffCommand implements Command {
     Light light;
 

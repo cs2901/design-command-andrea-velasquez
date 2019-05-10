@@ -1,4 +1,6 @@
-package command;
+package invoker;
+import command.Command;
+
 import java.util.*;
 
 public class RemoteControl {

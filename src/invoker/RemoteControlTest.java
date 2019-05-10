@@ -1,6 +1,7 @@
-package command;
+package invoker;
 
-import java.util.concurrent.ConcurrentMap;
+import command.*;
+import receiver.*;
 
 public class RemoteControlTest {
     public static void main(String[] args) {

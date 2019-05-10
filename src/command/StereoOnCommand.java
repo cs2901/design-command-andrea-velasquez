@@ -1,5 +1,7 @@
 package command;
 
+import receiver.Stereo;
+
 public class StereoOnCommand implements Command{
     Stereo stereo;
 

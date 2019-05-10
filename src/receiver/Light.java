@@ -1,15 +1,14 @@
-package command;
+package receiver;
 
-public class Stereo {
+public class Light {
     private boolean isOn = false;
     public void  on(){
         isOn = true;
-        System.out.println("Stereo is on");
+        System.out.println("Light is on");
     }
 
     public void off(){
         isOn = false;
-        System.out.println("Stereo is off");
+        System.out.println("Light is off");
     }
-
 }

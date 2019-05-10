@@ -3,37 +3,29 @@
   <ID>JAVA</ID>
   <OriginalElement>command</OriginalElement>
   <nodes>
-    <node x="201.25574977000923" y="252.7608095676173">command.Door</node>
-    <node x="731.6301747930083" y="257.0">command.Fan</node>
-    <node x="1609.857405703772" y="258.41306347746087">command.Light</node>
-    <node x="0.0" y="118.0">command.GarageDoorOpenCommand</node>
-    <node x="1785.7028518859245" y="264.06531738730445">command.Room</node>
-    <node x="1213.8058877644894" y="254.1738730450782">command.Stereo</node>
+    <node x="0.0" y="118.0">command.GarageDoorCloseCommand</node>
+    <node x="1277.0" y="118.0">command.StereoOnCommand</node>
+    <node x="532.0" y="118.0">command.GarageDoorOpenCommand</node>
     <node x="1739.0" y="118.0">command.CeilingFanHighCommand</node>
     <node x="811.0" y="118.0">command.LightOffCommand</node>
-    <node x="305.2217111315548" y="-130.179392824287">command.RemoteControl</node>
-    <node x="279.0" y="118.0">command.GarageDoorCloseCommand</node>
-    <node x="1277.0" y="118.0">command.StereoOnCommand</node>
-    <node x="559.0" y="118.0">command.CeilingFanLowCommand</node>
+    <node x="280.0" y="118.0">command.CeilingFanLowCommand</node>
     <node x="1035.0" y="118.0">command.StereoOffCommand</node>
-    <node x="638.6844526218948" y="-158.44066237350503">command.RemoteControlTest</node>
-    <node x="1517.0" y="118.0">command.LightOnCommand</node>
     <node x="962.5" y="0.0">command.Command</node>
-    <node x="345.08739650413975" y="-244.63753449862">command.SimpleRemoteControl</node>
+    <node x="1517.0" y="118.0">command.LightOnCommand</node>
   </nodes>
   <notes />
   <edges>
     <edge source="command.GarageDoorOpenCommand" target="command.Command">
       <point x="0.0" y="-47.0" />
-      <point x="129.5" y="68.0" />
-      <point x="970.875" y="68.0" />
-      <point x="-58.625" y="24.0" />
+      <point x="661.5" y="88.0" />
+      <point x="1004.375" y="88.0" />
+      <point x="-25.125" y="24.0" />
     </edge>
     <edge source="command.CeilingFanLowCommand" target="command.Command">
       <point x="0.0" y="-47.0" />
-      <point x="675.0" y="88.0" />
-      <point x="1004.375" y="88.0" />
-      <point x="-25.125" y="24.0" />
+      <point x="396.0" y="78.0" />
+      <point x="987.625" y="78.0" />
+      <point x="-41.875" y="24.0" />
     </edge>
     <edge source="command.LightOffCommand" target="command.Command">
       <point x="0.0" y="-47.0" />
@@ -61,9 +53,9 @@
     </edge>
     <edge source="command.GarageDoorCloseCommand" target="command.Command">
       <point x="0.0" y="-47.0" />
-      <point x="409.0" y="78.0" />
-      <point x="987.625" y="78.0" />
-      <point x="-41.875" y="24.0" />
+      <point x="130.0" y="68.0" />
+      <point x="970.875" y="68.0" />
+      <point x="-58.625" y="24.0" />
     </edge>
     <edge source="command.CeilingFanHighCommand" target="command.Command">
       <point x="0.0" y="-47.0" />
@@ -72,7 +64,7 @@
       <point x="58.625" y="24.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7076822916666666" x="804.0" y="51.95032198712056" />
+  <settings layout="Hierarchic Group" zoom="0.7076822916666666" x="543.5" y="233.50000000000003" />
   <SelectedNodes />
   <Categories>
     <Category>Fields</Category>

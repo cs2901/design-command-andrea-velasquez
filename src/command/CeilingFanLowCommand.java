@@ -1,5 +1,7 @@
 package command;
 
+import receiver.Fan;
+
 public class CeilingFanLowCommand implements Command {
     Fan fan;
 
